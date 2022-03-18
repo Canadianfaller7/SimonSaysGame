@@ -1,0 +1,35 @@
+#colors {
+    float: left;
+    overflow: hidden;
+    width: 280px;
+}
+#colors li {
+    background-color: magenta;
+    color: black;
+    cursor: auto;
+    font-size: 30px;
+    line-height: 100px;
+    list-style-position: inside;
+    list-style-type: none;
+    height: 150px;
+    float: left;
+    width: 150px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+#colors li.green {background-color: greenyellow;}
+#colors li.blue {background-color: turquoise;}
+#colors li.yellow {background-color: gold;}
+#colors li.on {background-color: black;}
+p#start {cursor: pointer; color: blue;}
+p#start:hover { text-decoration: underline;}
+.playing #colors li {
+    cursor: pointer;
+}
+.game-over #colors li {
+    opacity: 0.5;
+}
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+}
